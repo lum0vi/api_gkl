@@ -10,7 +10,7 @@ service Parser {
 
 message GetParserElementsRequest{
     string site_url = 1;
-    string selection = 2;
+    repeated string selection = 2;
 }
 
 message SelectionElement{
